@@ -99,7 +99,7 @@ uint32_t neg_mod(uint32_t neg, uint32_t m){
 
 // gives d because somthing somthing extend euclidean Algorithm
 uint32_t get_d(uint32_t e, uint32_t phi){
-    // using pointers instead of arrays because I am a masochist
+    // using pointers instead of arrays because I can
  
     uint32_t *r = calloc(100, sizeof(uint32_t));
     uint32_t *s = calloc(100, sizeof(uint32_t));
